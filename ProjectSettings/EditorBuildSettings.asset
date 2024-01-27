@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Samples/Meta XR Interaction SDK OVR Samples/60.0.0/Example Scenes/TouchGrabExamples.unity
     guid: ade7d3882b4495145a8fe79f5624beab
+  - enabled: 0
+    path: Assets/Samples/Meta XR Interaction SDK OVR Samples/60.0.0/Example Scenes/HandGrabUseExamples.unity
+    guid: 509f8fa80c708b343a603a4771d35c85
+  - enabled: 0
+    path: Assets/Samples/Meta XR Interaction SDK OVR Samples/60.0.0/Example Scenes/TransformerExamples.unity
+    guid: 7475942f60c376744ba1ec487d140105
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 334ceafd5794bfd4485482df744e1b1e,
       type: 2}

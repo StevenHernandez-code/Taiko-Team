@@ -260,6 +260,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1785041229}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &102191226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 102191227}
+  - component: {fileID: 102191228}
+  m_Layer: 0
+  m_Name: HapticsSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &102191227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102191226}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.11761296, y: 0.66805285, z: 0.5522992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &102191228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102191226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c4318079c1cc4bfa85baaae86cd83fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 2460798210113038985, guid: dde55e13c542f48c186587cca063eac8, type: 3}
 --- !u!1001 &126574492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -505,74 +550,6 @@ MonoBehaviour:
   _asTriggers: 0
   _useLayer: 0
   _mask: 16777215
---- !u!1001 &266497257
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.052
-      objectReference: {fileID: 0}
-    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.401
-      objectReference: {fileID: 0}
-    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3368105912713542411, guid: 98a81136f2cf9a94195b65b9a7aad741,
-        type: 3}
-      propertyPath: m_Name
-      value: TaikoDrumstickWithTrail
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 98a81136f2cf9a94195b65b9a7aad741, type: 3}
 --- !u!1 &329934808
 GameObject:
   m_ObjectHideFlags: 0
@@ -1720,6 +1697,74 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _controller: {fileID: 854813187}
   _controllerButtonUsage: -1
+--- !u!1001 &1166990036
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.085
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.485
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735438519162806705, guid: 98a81136f2cf9a94195b65b9a7aad741,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3368105912713542411, guid: 98a81136f2cf9a94195b65b9a7aad741,
+        type: 3}
+      propertyPath: m_Name
+      value: TaikoDrumstickWithTrail
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98a81136f2cf9a94195b65b9a7aad741, type: 3}
 --- !u!1001 &1170914458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3272,6 +3317,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1369901731}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1935965340
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4323152906308953522, guid: a342349d6424a4dcabba224aa4ad0f1c,
+        type: 3}
+      propertyPath: _transferOnSecondSelection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063809437117102093, guid: a342349d6424a4dcabba224aa4ad0f1c,
+        type: 3}
+      propertyPath: m_Name
+      value: TaikoDrumstick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.138
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.034
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.471
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a342349d6424a4dcabba224aa4ad0f1c, type: 3}
 --- !u!1 &2132646862
 GameObject:
   m_ObjectHideFlags: 0
@@ -3386,74 +3504,6 @@ Transform:
   - {fileID: 1205047694}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 46.356, y: 66.56, z: 41.256}
---- !u!1001 &6575485947093651592
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5063809437117102093, guid: a342349d6424a4dcabba224aa4ad0f1c,
-        type: 3}
-      propertyPath: m_Name
-      value: TaikoDrumstick
-      objectReference: {fileID: 0}
-    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.1136
-      objectReference: {fileID: 0}
-    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.4284
-      objectReference: {fileID: 0}
-    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5552256050886009527, guid: a342349d6424a4dcabba224aa4ad0f1c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a342349d6424a4dcabba224aa4ad0f1c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3461,7 +3511,8 @@ SceneRoots:
   - {fileID: 1833707479}
   - {fileID: 1369901728}
   - {fileID: 2132646867}
-  - {fileID: 6575485947093651592}
   - {fileID: 1170914458}
   - {fileID: 1825074976}
-  - {fileID: 266497257}
+  - {fileID: 1935965340}
+  - {fileID: 1166990036}
+  - {fileID: 102191227}
