@@ -21,7 +21,7 @@ public class DrumSoundController : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
         soundClip.Play();
     }
