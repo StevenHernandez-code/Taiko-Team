@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 4286916440341977283}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0010149999}
+  m_LocalPosition: {x: 0, y: 0, z: 0.001015}
   m_LocalScale: {x: 0.0008304905, y: 0.00083049055, z: 0.000062286774}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -231,7 +231,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9c9c554ce367c3468e00e190d04f475,
         type: 3}
       propertyPath: m_Name
-      value: TaikoDrumstick 1
+      value: TaikoDrumstickWithTrail
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e9c9c554ce367c3468e00e190d04f475,
         type: 3}
@@ -294,7 +294,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
