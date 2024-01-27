@@ -8,6 +8,9 @@ public class EnvironmentController : MonoBehaviour
     public GameObject environmentPrefabs;
     public float spawnAreaSize = 10f;
 
+    public List<GameObject> objectsToEnable;
+    private float spawnCount = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +29,16 @@ public class EnvironmentController : MonoBehaviour
        float z = Random.Range(-spawnAreaSize / 2, spawnAreaSize / 2);
        Vector3 spawnPosition = new Vector3(x, 0, z);
 
-       Instantiate(environmentPrefabs, spawnPosition, Quaternion.identity);
+       Quaternion spawnRotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
+
+
+       Instantiate(environmentPrefabs, spawnPosition, spawnRotation);
+
+       spawnCount++;
+
+       if (spawnCount == 10)
+       {
+            objectsToEnable[0].SetActive(true);
+       }
     }
 }
